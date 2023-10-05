@@ -12,6 +12,7 @@ before_install:
 script: 
   - docker run -e CI=true hanacody/docker-react-app npm run test -- --coverage
 
+
 # deploy:
 #   edge: true
 #   provider: elasticbeanstalk
